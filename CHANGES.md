@@ -1,3 +1,6 @@
+## v2.8.3
+  * Performance enhancement: role_change() now scopes group verification to the event's course instead of re-checking all of the user's courses on every role change.
+
 ## v2.8.2
   * Solves issue #44 - postgresql compatibility issue during upgrade process, previous fix was still buggy.
 
